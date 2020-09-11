@@ -102,7 +102,7 @@
           height: height,
           width: width,
           background: "url(" + imgSrc + ") " + repeat,
-          "background-size": "contain"
+          "background-size": "cover"
         })
 
         if (settings.overlay == true) {
