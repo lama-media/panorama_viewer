@@ -76,7 +76,7 @@
       var settings = $.extend({}, defaults, options),
       el = $(this);
       
-      el.find("> img").on('load', function () {
+//      el.find("> img").on('load', function () {
         el.find("> img").addClass("pv-pano");
         el.addClass("pv-container").wrapInner("<div class='pv-inner pv-animating'></div>");
 
@@ -194,7 +194,7 @@
         $bg.bind('dblclick', reset);
 
         el.find(".pv-pano").hide()
-      })
+//      })
       
       
     });
